@@ -1,0 +1,180 @@
+html {
+  scroll-behavior: smooth;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  transition: all 0.5s !important;
+}
+.header {
+  background-color: #e5e1da;
+  width: 100%;
+  position: sticky;
+  top: 0;
+}
+.logo {
+  display: inline-block;
+}
+.logo h1 {
+  padding: 10px;
+}
+.nav {
+  display: inline-block;
+  text-align: right;
+  width: calc(100% - 180px);
+}
+
+.nav a {
+  padding-left: 25px;
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+.nav a:hover {
+  padding-left: 25px;
+  color: #43766c;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.back-img {
+  background-image: url(Wave1.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 400px;
+  text-align: center;
+  padding: 25% 0;
+  color: #fbf9f1;
+}
+.back-img h1,
+p {
+  padding-bottom: 20px;
+}
+.main-button {
+  padding: 10px 30px;
+  background-color: #e5e1da;
+  border: none;
+}
+.main-button:hover {
+  padding: 10px 30px;
+  background-color: #43766c;
+  color: #e5e1da;
+  border: none;
+}
+.option {
+  text-align: center;
+}
+.option i {
+  font-size: 40px;
+  padding-bottom: 20px;
+  color: #43766c;
+}
+.options {
+  display: inline-block;
+  width: 25%;
+  text-align: center;
+  padding: 30px;
+}
+.main-page {
+  text-align: center;
+  background-color: #e5e1da;
+}
+.main-page h2,
+p {
+  padding: 15px 0;
+}
+.main-page hr,
+p {
+  width: 85%;
+  margin: 0 auto;
+}
+.main-page hr {
+  border-top: 2px solid #597e52;
+}
+.content {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0;
+}
+.content hr {
+  width: 85%;
+  margin: 0 auto;
+  border-top: 2px solid #597e52;
+}
+.test-div {
+  background-color: #e5e1da;
+  text-align: center;
+  float: left;
+  width: 20%;
+  height: 250px;
+  padding: 20px 0;
+  overflow: hidden;
+}
+.test-div button {
+  padding: 8px 15px;
+  background-color: #92c7cf;
+  border: 2px solid #92c7cf;
+}
+.test-div button:hover {
+  padding: 8px 15px;
+  background-color: #e5e1da;
+  border: 2px solid #92c7cf;
+  color: black;
+  cursor: pointer;
+}
+
+.img-div1 {
+  background-image: url(wave3.jpg);
+  text-align: center;
+  float: left;
+  width: 20%;
+  height: 250px;
+  padding: 0;
+  margin-right: 10px;
+}
+.img-div2 {
+  background-image: url(wave2.png);
+  text-align: center;
+  float: left;
+  width: 20%;
+  height: 250px;
+  padding: 0;
+}
+.last-content {
+  text-align: center;
+  margin: 0 auto;
+  width: 800px;
+}
+.last-content h2,
+p {
+  padding: 20px 0;
+}
+.last-content hr {
+  width: 500px;
+  margin: 0 auto;
+  border-top: 2px solid #597e52;
+}
+.last-content button {
+  margin: 15px 0;
+  padding: 16px 30px;
+  background-color: #92c7cf;
+  border: 2px solid #92c7cf;
+}
+.last-content button:hover {
+  margin: 15px 0;
+  padding: 16px 30px;
+  background-color: #e5e1da;
+  border: 2px solid #92c7cf;
+  color: black;
+  cursor: pointer;
+}
+#scroll-up {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  color: #92c7cf;
+  font-size: 50px;
+}
